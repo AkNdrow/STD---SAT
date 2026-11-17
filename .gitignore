@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Entorno virtual ===
+venv/
+.venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Datos generados (no se versionan) ===
+raw/*.csv
+raw/*.json
+clean/*.csv
+clean/*.json
+dw/*.db
+dw/*.sqlite
+marts/*.db
+marts/*.csv
+dashboard/*.html
+dashboard/*.css
+
+# === Logs ===
+*.log
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
